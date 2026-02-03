@@ -3,7 +3,7 @@
 AskBuddy is a production-ready conversational AI built using **LangChain, Streamlit, PostgreSQL, and ChromaDB**.  
 It supports **persistent memory**, **document-based question answering (RAG)**, and **real-time streaming responses**, similar to ChatGPT.
 
-
+![image](ask_buddy.png)
 
 ## 🚀 Features
 
