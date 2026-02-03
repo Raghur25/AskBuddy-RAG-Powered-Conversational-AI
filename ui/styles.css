@@ -1,0 +1,29 @@
+/* Chat container */
+.stChatMessage {
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+}
+
+/* User message */
+.stChatMessage[data-testid="user-message"] {
+    background-color: #1f2937;
+    color: #f9fafb;
+}
+
+/* AI message */
+.stChatMessage[data-testid="assistant-message"] {
+    background-color: #0b1220;
+    color: #e5e7eb;
+}
+
+/* Input box */
+textarea {
+    border-radius: 10px !important;
+}
+
+/* Empty state text subtle animation */
+.empty-state {
+    opacity: 0.85;
+}
+
